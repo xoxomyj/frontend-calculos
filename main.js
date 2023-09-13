@@ -4,9 +4,9 @@ const botaoSomar = document.getElementById('somar')
 const botaoSubtrair = document.getElementById('subtrair')
 const botaoMultiplicar = document.getElementById('multiplicar')
 const botaoDividir = document.getElementById('divisao')
-const botaoMediaEscolar = document.getElementById('mediaescolar')
+const botaoMedia = document.getElementById('media')
 const botaoIdentificar = document.getElementById('identificar')
-const botaoSomar03 = document.getElementById('somar03')
+const botaoSomar03 = document.getElementById('somar3')
 const botaoConfirmar = document.getElementById('confirmar')
 const botaoDescobrir = document.getElementById('descobrir')
 
@@ -167,7 +167,7 @@ function confirmarmultiplos() {
 
         }
     }
-    confirmarmultiplos.textContent = result
+    confirmarMulti.textContent = result
 }
 
 function descobrir () {
@@ -193,7 +193,7 @@ botaoSubtrair.addEventListener('click', subtrair)
 botaoMultiplicar.addEventListener('click', multiplicar)
 botaoDividir.addEventListener('click', dividir)
 botaoIdentificar.addEventListener('click', identificar)
-botaoMediaEscolar.addEventListener('click', MediaEscolar)
+botaoMedia.addEventListener('click', MediaEscolar)
 botaoSomar03.addEventListener('click', somarTresValores)
 botaoConfirmar.addEventListener('click', confirmarmultiplos)
 botaoDescobrir.addEventListener('click', descobrir)
